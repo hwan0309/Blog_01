@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_PORT'] = 3306  # 포트는 별도로 지정
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'wlghks12'
+app.config['MYSQL_PASSWORD'] = 'user id'
 app.config['MYSQL_DB'] = 'test_11'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
